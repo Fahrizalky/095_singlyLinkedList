@@ -70,3 +70,9 @@ void List::addNode()/*menambah sebuah Node kedalam List*/
 
 	}
 	
+	/*Jika Loop diatas dieksekusi, previous dan current akan menempati posisi dimana*/
+	nodeBaru->next = current;
+	previous->next = nodeBaru;
+}
+
+
